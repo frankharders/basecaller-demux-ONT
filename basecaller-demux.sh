@@ -5,7 +5,7 @@
 mkdir -p 1_pod52bam;
 mkdir -p 2_bam2fastq;
 
-~/GIT/dorado*/bin/dorado basecaller ~/GIT/dorado*/mode*/dna_r10.4.1_e8.2_400bps_hac\@v5.0.0 pod5/ > 1_pod52bam/calls.bam;
+~/GIT/dorado*/bin/dorado basecaller ~/GIT/dorado*/model/dna_r10.4.1_e8.2_400bps_hac\@v5.0.0 pod5/ > 1_pod52bam/calls.bam;
 
 ~/GIT/dorado*/bin/dorado demux 
 
